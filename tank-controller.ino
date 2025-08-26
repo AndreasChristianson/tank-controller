@@ -5,12 +5,12 @@
 #include <ArduinoBLE.h>
 
 BLEService tankService("E6B81F14-F9E5-40C9-A739-4DE4564264D1");
-BLEIntCharacteristic lxChar("6AB4", BLERead | BLENotify|BLEWrite);
-BLEIntCharacteristic lyChar("A096", BLERead | BLENotify|BLEWrite);
-BLEBoolCharacteristic lwChar("11D2", BLERead | BLENotify|BLEWrite);
-BLEIntCharacteristic rxChar("87B4", BLERead | BLENotify|BLEWrite);
-BLEIntCharacteristic ryChar("B5EC", BLERead | BLENotify|BLEWrite);
-BLEBoolCharacteristic rwChar("3A8E", BLERead | BLENotify|BLEWrite);
+BLEIntCharacteristic lxChar("6AB4", BLERead | BLENotify | BLEWrite);
+BLEIntCharacteristic lyChar("A096", BLERead | BLENotify | BLEWrite);
+BLEBoolCharacteristic lwChar("11D2", BLERead | BLENotify | BLEWrite);
+BLEIntCharacteristic rxChar("87B4", BLERead | BLENotify | BLEWrite);
+BLEIntCharacteristic ryChar("B5EC", BLERead | BLENotify | BLEWrite);
+BLEBoolCharacteristic rwChar("3A8E", BLERead | BLENotify | BLEWrite);
 
 
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
